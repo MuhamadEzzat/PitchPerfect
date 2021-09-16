@@ -32,7 +32,7 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate  {
                recordingLbl.text = isRecording ? "Recording ..." : "Tap To Record"
        }
 
-    //Mark :- Actions of play and stopping recording
+    //Mark :- Action of play  recording
     @IBAction func recordButton(_ sender: Any) {
         configueUI(true)
         
@@ -52,6 +52,7 @@ class RecordSoundViewController: UIViewController, AVAudioRecorderDelegate  {
         audioRecorder.record()
     }
     
+    // Mark:- Action of stopping recording
     @IBAction func stopRecording(_ sender: Any) {
         configueUI(false)
         audioRecorder.stop()
