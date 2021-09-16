@@ -64,6 +64,7 @@
                     <navigationItem key="navigationItem" id="fjG-1u-IXv"/>
                     <connections>
                         <outlet property="recordButton" destination="zq9-cB-3mn" id="aJB-y1-P63"/>
+                        <outlet property="recordingLbl" destination="Smc-WA-xTi" id="17W-2x-mly"/>
                         <outlet property="stopRecordingButton" destination="z7q-yi-5h1" id="GPL-Jc-pNk"/>
                         <segue destination="NUd-Rp-j0G" kind="show" identifier="stopRecording" id="PyZ-OO-GfS"/>
                     </connections>
